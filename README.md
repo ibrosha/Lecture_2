@@ -9,5 +9,65 @@ are "visible" or can be referenced. If a variable or expression is not in the cu
 scope, it will not be available for use. Scopes can also be layered in a  hierarchy, 
 so that child scopes have access to parent scopes, but not vice versa.
 
-![Tux, the Linux mascot](/Без%20названия.png)
+![Tux, the Linux mascot](/2.png)
 
+# The 3 types of scope.
+## Global scope :
+-  The default scope for all code running in script mode.
+
+![Tux, the Linux mascot](/123.jpg)
+
+## Function scope : 
+- The scope created with a function.
+
+![Tux, the Linux mascot](/1.jpg)
+
+## Block scope : 
+- This scope restricts the variable that is declared.
+- Block scope includes air Conditions and Loop
+
+![Tux, the Linux mascot](/1_KxHwVbB0zhnSVrhrWtT-gg.jpg)
+
+# what is Hoisting in JS ?
+
+- Hoisting is a JavaScript mechanism where variables and function 
+declarations are moved to the top of their scope before code 
+execution.
+
+- Hoisting in JavaScript is a behavior in which a function or a variable 
+can be used before declaration.
+
+![Tux, the Linux mascot](/9.webp)
+
+
+# What is Temporal Dead Zone JS ?
+- A variable declared
+with let or const
+cannot be accessed
+until it is declared
+within its scope.
+
+
+# Hoisting – Variable (var)
+
+- There’s a temptation to think that all of the code you see in a 
+JavaScript
+program is interpreted line-by-line, top-down in order, as the program
+execute. While that is essentially true, there’s one part of that as‐
+assumption that can lead to incorrect thinking about your program.
+
+
+![Tux, the Linux mascot](/57.webp)
+
+
+# Hoisting – function declaration 
+
+- So, one way of thinking, sort of metaphorically, about this process, is that variable and 
+function
+declarations are “moved” from where they appear in the flow of the code to the top of the 
+code. This gives rise to the name hoisting.
+
+- ![Tux, the Linux mascot](/12345.webp)
+
+- The function foo’s declaration (which in this case includes the implied value of it as an 
+actual function) is hoisted, such that the call on the first line is able to execute.
