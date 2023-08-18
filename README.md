@@ -67,7 +67,36 @@ function
 declarations are “moved” from where they appear in the flow of the code to the top of the 
 code. This gives rise to the name hoisting.
 
-- ![Tux, the Linux mascot](/12345.webp)
+![Tux, the Linux mascot](/12345.webp)
 
 - The function foo’s declaration (which in this case includes the implied value of it as an 
 actual function) is hoisted, such that the call on the first line is able to execute.
+
+
+# What is Recursion in JS ?
+
+- Recursion is when a function calls itself until someone stops it. If no one stops it then it'll 
+recurse (call itself) forever. Recursive functions let you perform a unit of work multiple times.
+Modern programming languages like JavaScript already have the for and while statements as
+alternatives to recursive functions. But some languages like Closure do not have any looping
+statements, so you need to use recursion to repeatedly execute a piece of code.
+
+
+![Tux, the Linux mascot](/Screenshot_1.png)
+
+- A recursive function must have a condition to stop calling itself. Otherwise, the 
+function is called indefinitely.
+Once the condition is met, the function stops calling itself. This is called the base 
+condition.
+To prevent infinite recursion, you can use if...else statement (or similar approach) 
+where one branch makes the recursive call, and the other doesn't.
+
+
+# What is Closure in JS ?
+
+A closure is the combination of a function bundled together (enclosed) with references to 
+its surrounding state (the lexical environment). In other words, a closure gives you 
+access to an outer function's scope from an inner function
+
+
+![Tux, the Linux mascot](/Screenshot_2.png)
